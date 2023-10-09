@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Formulario</title>
+</head>
+<body>
+    <h1>Reclamos</h1>
+    <form action="mailto:ejercicio@example.com" method="post" enctype="text/plain">
+        <label for="fname">Ingrese su nombre:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="fdir">Ingrese su dirección:</label>
+        <input type="text" id="fdir" name="fdir"><br>
+        <label for="fname">Informe del problema:</label><br>
+        <textarea id="problema" name="problema" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
