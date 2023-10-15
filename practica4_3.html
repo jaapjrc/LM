@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr style="width:100%; text-align:left; margin-left:0"; color="black">
+    <p>texto</p>
+    <hr style="width:100%; text-align:left; margin-left:0"; color="black">
+    <p style="font-size: x-large;">Formulario de Contacto</p>
+    <br>
+    <p>Déjenos saber sus preguntas, sugerencias o preocupaciones llenando el Formulario de contacto debajo.</p>
+    <hr style="width:35%; text-align:left; margin-left:0";>
+    <br>
+    <form action="mailto:reclamos@gmail.com?subject=pedido de reparación" method="post" enctype="text/plain">
+        <label for="fname" style="font-size: large;">Nombre completo</label><label for="fname" style="color: red; font-size: x-small;">&#10033;</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nombre" style="width: 17%; height: 30px;"> <label for="fname">&nbsp;</label> <input type="text" id="fname" name="fname" placeholder="Apellido" style="width: 17%; height: 30px;"><br><br>
+        <label for="femail" style="font-size: large;">Email</label><label for="femail" style="color: red; font-size: x-small;">&#10033;</label><br>
+            <input type="text" id="femail" style="width: 35%; height: 30px;"><br><br>    
+        <label for="ftel" style="font-size: large;">Teléfono</label><label for="ftel" style="color: red; font-size: x-small;">&#10033;</label><br>
+            <input type="text" id="ftel" placeholder="## #### ####" style="width: 35%; height: 30px;"><br><br>
+            <label for="asunto" style="font-size: large;">Asunto del mensaje</label><label for="asunto" style="color: red; font-size: x-small;">&#10033;</label><br>
+        <select id="asunto" name="asunto" style="width: 35%; height: 30px;">
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="preocupaciones">Preocupaciones</option>
+        </select><br><br>
+        <label for="mensaje" style="font-size: large;">Mensaje</label><label for="mensaje" style="color: red; font-size: x-small;">&#10033;</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required style="width: 35%;"></textarea><br>
+        <br>
+        <input type="submit" value="Enviar" style="background-color: dimgray; color: white; text-align: center; display: block; margin-left: 15%; height: 50px; width: 7%;">    
+    </form>
+</body>
+</html> 
