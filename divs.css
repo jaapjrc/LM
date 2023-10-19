@@ -1,0 +1,26 @@
+#divIzquierda {
+    position: fixed;
+    left: 0;
+    top: 10%;
+    width: 20%;
+    height: 80%;
+    border: none;
+    }
+    #divSuperior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    border: none;
+    background-color: black;
+    color: white;
+    }
+    #divCentro {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 100%;
+    height: 80%;
+    border: none;
+    }
