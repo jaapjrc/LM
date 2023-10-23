@@ -1,0 +1,13 @@
+#div1 {
+    background-color:  salmon;
+}
+#div2 {
+    position: absolute;
+    background-color: yellow;
+    left: 40px;
+    top: 30px;
+    height: 80px;
+}
+#div3 {
+    background-color:  salmon;
+}

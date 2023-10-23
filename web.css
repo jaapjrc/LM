@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece la altura mínima del viewport */
+}
+
+/* Encabezado */
+header {
+    background-image: url('F8yoY44WkAABsd4.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Contenedor Principal */
+.container {
+    margin-left: 10%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex: 1; /* Permite que ocupe todo el espacio vertical disponible */
+}
+
+/* Barra lateral */
+.sidebar {
+    width: 20%;
+    background-color: #3498db;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+/* Contenido Principal */
+.content {
+    width: 60%;
+    padding: 20px;
+}
+
+/* Formulario de Login */
+form {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0f0; /* Verde */
+    color: #000;
+    background-color: aqua;
+
+}
+
+input[type="password"] {
+    border: 1px solid #f00; /* Rojo */
+}
+
+input[type="text"], input[type="password"], button {
+    color: #003;
+}
+
+button {
+    border: 2px solid white;
+    background-color: #0f0;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Pie de Página */
+footer {
+    margin-left: 10%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+}
+#img {
+    animation: go-left-right 3s infinite alternate;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+@keyframes go-left-right {        /* dale un nombre: "go-left-right" */
+
+    from { left: 0px; }             /* animar desde la izquierda: 0px */
+
+    to { left: calc(100% - 50px); } /* animar a la izquierda: 100%-50px */
+
+  }
