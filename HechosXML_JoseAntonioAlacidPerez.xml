@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hechos>
+	<hecho id="1">
+	    <year>3500 A.C.</year>
+		<mes></mes>
+		<dia></dia>
+		<nombre>Ábaco</nombre>
+        <autor></autor>
+        <descripcion>Es el dispositivo más antiguo utilizado para realizar operaciones aritméticas.</descripcion>
+	</hecho>
+    <hecho id="2">
+		<year>1646</year>
+		<mes>Marzo</mes>
+		<dia>8</dia>
+		<nombre>Calculadora universal</nombre>
+        <autor>Leibnitz</autor>
+        <descripcion>Máquina que suma, resta, multiplica, divide y hace raíces cuadradas.</descripcion>
+	</hecho>
+    <hecho id="3">
+		<year>1792</year>
+		<mes>Marzo</mes>
+		<dia>14</dia>
+		<nombre>Máquina analítica</nombre>
+        <autor>Charles Babbage y Ada Lovelace</autor>
+        <descripcion>Máquina que resolvía funciones y obtenía tablas.</descripcion>
+	</hecho>
+    <hecho id="4">
+		<year>1852</year>
+		<mes>Abril</mes>
+		<dia>12</dia>
+		<nombre>Varias máquinas</nombre>
+        <autor>Torres Quevedo</autor>
+        <descripcion>Construyó una máquina para jugar al ajedrez y una calculadora</descripcion>
+	</hecho>
+    <hecho id="5">
+		<year>1936</year>
+		<mes>Septiembre</mes>
+		<dia>15</dia>
+		<nombre>Máquina de Turing</nombre>
+        <autor>Alan Turing</autor>
+        <descripcion>Máquina capaz de resolver todo tipo de problemas con la solución algoritmica. Con Turing se inició la teoría matemática de la computación.</descripcion>
+    </hecho>
+</hechos>
