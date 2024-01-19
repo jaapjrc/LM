@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<invitados xmlns:alumno="localhost/alumnos" xmlns:profesor="localhost/profesor">
+    <alumno:nombre>Juan García Martín</alumno:nombre>
+    <alumno:nombre>María Gómez Sanjuán</alumno:nombre>
+    <alumno:nombre>José López Murillo</alumno:nombre>
+    <profesor:nombre>Ana López Pérez</profesor:nombre>
+    <profesor:nombre>Luis Juan Pérez</profesor:nombre>
+</invitados>

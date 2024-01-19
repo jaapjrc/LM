@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<acontecimientos xmlns:evento="localhost/evento" xmlns:charla="localhost/charla">
+    <evento:acontecimiento>
+        <id>1</id>
+        <nombre>a</nombre>
+        <descripcion>a</descripcion>
+    </evento:acontecimiento>
+    <evento:acontecimiento>
+        <id>2</id>
+        <nombre>b</nombre>
+        <descripcion>b</descripcion>
+    </evento:acontecimiento>
+    <evento:acontecimiento>
+        <id>3</id>
+        <nombre>c</nombre>
+        <descripcion>c</descripcion>
+    </evento:acontecimiento>
+    <charla:acontecimiento>
+        <id>4</id>
+        <nombre>d</nombre>
+        <descripcion>d</descripcion>
+    </charla:acontecimiento>
+    <charla:acontecimiento>
+        <id>5</id>
+        <nombre>e</nombre>
+        <descripcion>e</descripcion>
+    </charla:acontecimiento>
+    <charla:acontecimiento>
+        <id>6</id>
+        <nombre>f</nombre>
+        <descripcion>f</descripcion>
+    </charla:acontecimiento>
+</acontecimientos>

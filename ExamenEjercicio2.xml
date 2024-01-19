@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exhibiciones xmlns:libro="localhost/libro" xmlns:escritor="localhost/escritor">
+    <libro:exhibicion>
+        <id>1</id>
+        <nombre>Biblia</nombre>
+        <descripcion>Jesus rocks</descripcion>
+    </libro:exhibicion>
+    <libro:exhibicion>
+        <id>2</id>
+        <nombre>Playboy braile</nombre>
+        <descripcion>Ciegos</descripcion>
+    </libro:exhibicion>
+    <libro:exhibicion>
+        <id>3</id>
+        <nombre>Berserk</nombre>
+        <descripcion>Librería Baroja: "BERSERK"</descripcion>
+    </libro:exhibicion>
+    <escritor:exhibicion>
+        <id>1</id>
+        <nombre>Gabriel</nombre>
+        <descripcion>Firma tetas</descripcion>
+    </escritor:exhibicion>
+    <escritor:exhibicion>
+        <id>2</id>
+        <nombre>Pablo</nombre>
+        <descripcion>Firma culos</descripcion>
+    </escritor:exhibicion>
+    <escritor:exhibicion>
+        <id>3</id>
+        <nombre>Dani</nombre>
+        <descripcion>Firma nohits</descripcion>
+    </escritor:exhibicion>
+</exhibiciones>
